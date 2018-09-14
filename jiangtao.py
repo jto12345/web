@@ -8,7 +8,7 @@
 # #
 import urllib3
 from urllib.request import urlopen
-
+import chardet
 html = urlopen("http://www.baidu.com")
 
 print(html.read())
