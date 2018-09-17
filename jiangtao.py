@@ -5,32 +5,16 @@
 # @Site    : 
 # @File    : jiangtao.py
 # @Software: PyCharm
-# #
+#
+# import urllib
+# import requests
+#
+# post_param = {'action': '', 'start': '0', 'limit': '1'}
+# return_data = requests.get("http://http://speed.pigeoncn.com/speed/imfor_02052_1809140702052.html", data=post_param)
+# print(return_data.text)
 
-# import urllib3
-# from urllib.request import urlopen
-# import chardet
-#
-# if _name_ == "_main_":
-#
-# resp
-#
-# html = urlopen("http://www.baidu.com")
-#
-#
-#
-# print(html.read())
-#
-#
-#
-# charset = chardet.detect(html)
-#
-# print(charset)
-# import urllib3
-#
-# dir(urllib3)
-#
-# print(dir())
+
+
 
 
 
